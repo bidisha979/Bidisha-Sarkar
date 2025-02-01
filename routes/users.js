@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/portfoliodb")
+mongoose.connect("mongodb+srv://bidisha:0420@bidishaproject.rgyjmyb.mongodb.net/?retryWrites=true&w=majority&appName=bidishaproject")
   .then(() => console.log("Connected to MongoDB ✅"))
   .catch((err) => console.error("MongoDB connection error ❌", err));
 
