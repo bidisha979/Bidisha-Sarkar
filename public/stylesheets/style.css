@@ -15,7 +15,7 @@ html {
 body {
   font-family: 'Birthstone', sans-serif;
   height: 100%;
-  padding: 0;
+  padding-top: 100px;
   margin: 0;
   background: #181828;
   font-size: 14px;
@@ -210,9 +210,17 @@ a {
 }
 
 nav {
+  position: fixed;
+  background-color: #181828;
+  border: 1.5px solid white ;
+  border-bottom-left-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 80px;
   align-items: center;
   padding: 0 100px;
 }
@@ -900,7 +908,7 @@ p {
   }
 
   nav {
-    padding: 50px;
+    padding: 0 50px;
   }
 }
 
@@ -1011,7 +1019,7 @@ p {
   }
 
   nav {
-    height: 75px;
+    height: 60px;
     padding: 0 20px;
   }
 
