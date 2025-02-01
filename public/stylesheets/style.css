@@ -301,6 +301,8 @@ nav .right a:hover::after {
 }
 
 .sec1 .text h1 {
+  font-style: italic;
+  font-family: 'Birthstone', sans-serif;
   font-size: 45px;
   margin-bottom: 15px;
 }
@@ -905,6 +907,10 @@ p {
     margin-bottom: 30px;
     padding: 50px;
     /* padding: 0 30px; */
+  }
+
+  .text h1{
+    text-align: center;
   }
 
   nav {
